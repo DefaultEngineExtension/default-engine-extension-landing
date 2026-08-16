@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy policy — MultiEngines Search</title>
+    <meta
+      name="description"
+      content="Privacy policy for the MultiEngines Search Chrome extension. Search queries are not sent to the developer."
+    />
+    <link rel="canonical" href="https://defaultsearch.online/privacy.html" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="wrap site-header">
+      <a class="brand" href="/">
+        <img src="assets/logo.png" alt="" width="40" height="40" />
+        MultiEngines Search
+      </a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="wrap legal">
+      <h1>Privacy policy</h1>
+      <p class="meta">Last updated: 16 August 2026</p>
+
+      <p>
+        MultiEngines Search is a Chrome extension published by an independent
+        developer. This page describes how the extension handles information.
+      </p>
+
+      <h2>What the extension does</h2>
+      <p>
+        The extension adds a search-engine picker on Google and can open a new
+        tab on google.com. When you search, the browser goes directly to Google,
+        Bing, Yahoo, or DuckDuckGo. The extension does not proxy your searches
+        through a developer-operated server.
+      </p>
+
+      <h2>Data stored on your device</h2>
+      <p>
+        The only preference saved is the default search engine you choose in
+        Options (and the engine selected for the current tab while you use it).
+        That value is stored locally with Chrome’s
+        <code>chrome.storage</code> API. It does not leave your browser as part
+        of this extension.
+      </p>
+
+      <h2>What we do not collect</h2>
+      <ul>
+        <li>Search queries are not sent to the developer.</li>
+        <li>There is no analytics, advertising, or usage telemetry.</li>
+        <li>There is no account, and no data is sold or shared with third parties by us.</li>
+      </ul>
+      <p>
+        The search engines you visit (Google, Bing, Yahoo, DuckDuckGo) have
+        their own policies. This document covers only MultiEngines Search.
+      </p>
+
+      <h2>New Tab</h2>
+      <p>
+        If you keep the New Tab override, a new tab loads google.com in your
+        browser. That request is between you and Google, not a service we run.
+      </p>
+
+      <h2>Permissions</h2>
+      <p>
+        The extension uses <code>storage</code> to remember your engine choice
+        and <code>declarativeNetRequest</code> so a Google search URL can open
+        on the engine you selected. It does not use those permissions to send
+        data to the developer.
+      </p>
+
+      <h2>How to delete local data</h2>
+      <p>
+        Remove the extension in Chrome. Chrome then deletes the extension’s
+        local storage.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy:
+        <a data-email href="mailto:hello@example.com">hello@example.com</a>
+      </p>
+    </main>
+
+    <footer class="wrap site-footer">
+      <span>MultiEngines Search</span>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a data-email href="mailto:hello@example.com">hello@example.com</a>
+      </nav>
+    </footer>
+    <script src="config.js"></script>
+  </body>
+</html>
