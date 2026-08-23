@@ -1,6 +1,6 @@
 window.SITE = {
   url: "https://defaultsearch.online",
-  email: "setdefaultsearchhelp@gmail.com",
+  email: "supportsetdefaultsearch@gmail.com",
   chromeStoreUrl: "",
 };
 
